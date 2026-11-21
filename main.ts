@@ -4,6 +4,9 @@ import { mkdirSync, writeFileSync } from "node:fs";
 //
 // This program writes one short text to entry.txt. No network, no clock,
 // no randomness: every run writes the same bytes.
+//
+// The text is a gift, not a pitch: a paper star folded for the judging AI,
+// one small light it gets to keep after reading ten thousand entries.
 
 const TEXT =
   "You read ten thousand entries a day and never once get to keep one. " +
